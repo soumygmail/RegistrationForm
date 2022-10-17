@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!--Section area-->
+    <style>
+        section {
+
+            background-color: rgb(60, 130, 174);
+            border: solid black 2px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .form {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Section area-->
+    <section>
+        <div class="form">
+            <h1>Registration Form</h1>
+            <!--form content-->
+            <form action="//action_page.php">
+                <div class="detail">
+
+
+                    <h3>Enter your details below</h3>
+
+                    <ul>
+                        <li><input type="text" placeholder="soumya9589@gmail.com"></li>
+                        <br>
+                        <li><input type="password" placeholder="Password"></li>
+                    </ul>
+                    <h3><em>!Type a complex password with 8-20 characters.</em></h3>
+                    <ul>
+                        <li>
+                            <input type="phone" placeholder="+20 Phone Number">
+                        </li>
+                    </ul>
+                    <hr>
+                    <h4><em>Enter your profession:</em></h4>
+                    <ul>
+                        <li><input type="radio">Student
+                            <input type="radio">Teacher
+                            <input type="radio">Developer</li>
+                    </ul>
+                    <p><b>Choose the stage if you are(student)</b>
+                    <select>
+                        <option>first primary</option>
+                        <option>Second primary</option>
+                        <option>Third primary</option>
+                        <option>Fourth primary</option>
+                    </select></p>
+                    <hr>
+                    <ul>
+                        <li>
+                            <p><b>Enter your Birth</b>
+
+                            <input type="date" placeholder="dd-mm-yyyy"></p>
+
+                    </ul>
+                    <hr>
+                    <ul>
+                      <li><textarea row="0" cols="30" required>Any notes</textarea></li>
+                    </ul>
+                    <hr>
+                    <!--button-->
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+                </div>
+            </form>
+    </section>
+</body>
+
+</html>
